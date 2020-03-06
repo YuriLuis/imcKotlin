@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calcula Imc</string>
+    <string name="peso_kg">Peso(Kg)</string>
+    <string name="altura_m">Altura(m) ex: 1.65</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="botao_calcular">Calcular Imc</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancelar</string>
+</resources>
