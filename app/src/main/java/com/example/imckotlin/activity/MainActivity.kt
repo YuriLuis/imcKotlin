@@ -54,7 +54,10 @@ class MainActivity : AppCompatActivity() {
 
         var classificacaoImc = criaInstanciaDoImc().classificacaoImc(resultadoImc)
 
-        builder.setMessage("Imc =  $classificacaoImc")
+        var pesoIdeal = criaInstanciaDoImc().pesoIdeal(inputTextPeso.text.toString().toDouble()
+            ,inputTextAltura.text.toString().toDouble())
+
+        builder.setMessage("Imc =  $classificacaoImc" + "\nPeso ideal = $pesoIdeal " )
         builder.setCancelable(false)
         builder.setPositiveButton("Ok") { dialog: DialogInterface?, which: Int -> }
         builder.show()
