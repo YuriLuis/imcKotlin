@@ -4,7 +4,15 @@
     <string name="altura_m">Altura(m) ex: 1.65</string>
     <string name="masculino">Masculino</string>
     <string name="feminino">Feminino</string>
-    <string name="botao_calcular">Calcular Imc</string>
+    <string name="botaoCalcular">Calcular Imc</string>
     <string name="ok">Ok</string>
     <string name="cancel">Cancelar</string>
+    <string name="baixoPesoMuitoGrave">Baixo peso muito grave</string>
+    <string name="baixoPesoGrave">Baixo peso grave</string>
+    <string name="baixoPeso">Baixo peso</string>
+    <string name="pesoNormal">Peso normal</string>
+    <string name="sobrepeso">Sobrepeso</string>
+    <string name="obesidadeGrauI">Obesidade grau I</string>
+    <string name="obesidadeGrauII">Obesidade grau II</string>
+    <string name="obesidadeGrauIII">Obesidade grau III</string>
 </resources>
